@@ -1,0 +1,29 @@
+/* Container for the radio buttons */
+.radio-container .custom-radio-items {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Default style for labels */
+.custom-radio-items label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 20px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: #b31b1b;
+  color: white;
+  cursor: pointer;
+}
+
+/* Hide the radio inputs */
+.custom-radio-items input[type="radio"] {
+  display: inline;
+  color: black;
+}
+
+.user-select-none svg-container{
+  background-color: black;
+}
